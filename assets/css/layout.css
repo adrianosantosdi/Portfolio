@@ -5,11 +5,13 @@
 }
 
 header {
+    position: relative;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url('../img/secao08-background-capa.jpg') center center;
     background-size: cover;
     width: 100%;
     height: 100vh;
     border-top: 5px solid #078C31;
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
 }
 
 #logo {
@@ -68,4 +70,109 @@ nav ul li a:hover {
     width: 40px;
     height: 40px;
     color: #FFF;
+}
+
+header div#chamada {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+section#domingo-perfeito {
+    width: 100%;
+    padding: 40px 0 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita {
+    position: relative;
+    width: 15%;
+}
+
+div.folha1 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 150px;
+    height: 150px;
+    background: url('../img/secao09-folha1.png') no-repeat;
+}
+
+div.camarao {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background: url('../img/secao09-camarao.jpg') no-repeat;
+}
+
+div.folha2 {
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    background: url('../img/secao09-folha2.png') no-repeat;
+}
+
+div.folha3 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 160px;
+    height: 150px;
+    background: url('../img/secao09-folha3.png') no-repeat;
+}
+
+div.tomate {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 160px;
+    height: 150px;
+    background: url('../img/secao09-tomate.png') no-repeat;
+}
+
+div.queijo {
+    position: absolute;
+    top: 600px;
+    left: 10px;
+    width: 160px;
+    height: 150px;
+    background: url('../img/secao09-queijo.jpg') no-repeat;
+}
+
+div#domingo-perfeito-centro {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div#pontos-chaves-mestre {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div.pontos-chaves {
+    text-align: center;
+    width: 25%;
+}
+
+section#domingo-perfeito div.pontos-chaves ion-icon {
+    width: 75px;
+    height: 75px;
+    color: #F03733;
 }
