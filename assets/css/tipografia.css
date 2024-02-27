@@ -100,3 +100,7 @@ section#pizza ul li {
     font-size: 90%;
     text-transform: uppercase;
 }
+
+section#testemunha p.destaque {
+    width: 40%;
+}
