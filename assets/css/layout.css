@@ -289,3 +289,28 @@ section#testemunha div#testemunha-centro div#testemunhos ul img {
     margin-bottom: 20px;
     border: 5px solid #F03733;
 }
+
+div#transicao-testemunho-plano {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div#transicao-testemunho-plano div#decoracao1 {
+    width: 30%;
+    height: 100%;
+    background: url('../img/secao13-tomate-manjericao-alho.jpg') no-repeat top center;    
+}
+
+div#transicao-testemunho-plano div#decoracao2 {
+    width: 30%;
+    height: 100%;
+    background: url('../img/secao13-azeite.jpg') no-repeat top center;  
+}
+div#transicao-testemunho-plano div#decoracao3 {
+    width: 30%;
+    height: 100%;
+    background: url('../img/secao13-detalhe-tomate.jpg') no-repeat bottom right;  
+}
