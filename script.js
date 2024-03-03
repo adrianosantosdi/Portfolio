@@ -41,3 +41,11 @@ $('div#testemunha-esquerda').click(function () {
     $('div#testemunha-direita ion-icon').css('cursor', 'pointer');
 })
 
+$('div.planos-bottom').click(function() {
+    alert('Clicou');
+})
+
+$('ion-icon#instagram').click(function() {
+    window.open('https://www.instagram.com.br', '_blank')
+})
+
