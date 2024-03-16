@@ -27,6 +27,11 @@ nav {
     height: 200px;
 }
 
+nav ul#icone-menu-mobile {
+    float: right;
+    display: none;
+}
+
 nav ul#esquerda {
     float: left;
 }
@@ -50,7 +55,7 @@ nav ul li {
 nav ul li a {
     color: #FFF;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 100px;
     font-size: 80%;
 }
@@ -102,6 +107,7 @@ div.folha1 {
     width: 150px;
     height: 150px;
     background: url('../img/secao09-folha1.png') no-repeat;
+    opacity: 0;
 }
 
 div.camarao {
@@ -111,6 +117,7 @@ div.camarao {
     width: 150px;
     height: 150px;
     background: url('../img/secao09-camarao.jpg') no-repeat;
+    opacity: 0;
 }
 
 div.folha2 {
@@ -120,6 +127,7 @@ div.folha2 {
     width: 150px;
     height: 150px;
     background: url('../img/secao09-folha2.png') no-repeat;
+    opacity: 0;
 }
 
 div.folha3 {
@@ -129,6 +137,7 @@ div.folha3 {
     width: 160px;
     height: 150px;
     background: url('../img/secao09-folha3.png') no-repeat;
+    opacity: 0;
 }
 
 div.tomate {
@@ -138,6 +147,7 @@ div.tomate {
     width: 160px;
     height: 150px;
     background: url('../img/secao09-tomate.png') no-repeat;
+    opacity: 0;
 }
 
 div.queijo {
@@ -147,6 +157,7 @@ div.queijo {
     width: 160px;
     height: 150px;
     background: url('../img/secao09-queijo.jpg') no-repeat;
+    opacity: 0;
 }
 
 div#domingo-perfeito-centro {
@@ -200,6 +211,7 @@ div.pizza-opcoes {
     width: 33.3%;
     text-align: center;
     margin: 5px 0;
+    opacity: 0;
 }
 
 section#testemunha {
@@ -233,6 +245,12 @@ div#testemunha-mestre ion-icon {
     width: 90%;
     height: 90%;
     color: #F03733;
+}
+
+nav ul#icone-menu-mobile ion-icon {
+    width: 50px;
+    height: 90%;
+    color: #FFF;
 }
 
 div#testemunha-esquerda ion-icon {
@@ -301,23 +319,27 @@ div#transicao-testemunho-plano {
 div#transicao-testemunho-plano div#decoracao1 {
     width: 30%;
     height: 100%;
+    opacity: 0;
     background: url('../img/secao13-tomate-manjericao-alho.jpg') no-repeat top center;    
 }
 
 div#transicao-testemunho-plano div#decoracao2 {
     width: 30%;
     height: 100%;
+    opacity: 0;
     background: url('../img/secao13-azeite.jpg') no-repeat top center;  
 }
+
 div#transicao-testemunho-plano div#decoracao3 {
     width: 30%;
     height: 100%;
+    opacity: 0;
     background: url('../img/secao13-detalhe-tomate.jpg') no-repeat bottom right;  
 }
 
 section#plano-principal {
     width: 100%;
-    padding: 40px 0 80px;
+    height: 800px;
 }
 
 div#planos-janela {
@@ -332,6 +354,7 @@ div.planos {
     width: 250px;
     height: 450px;
     margin: 80px 30px;
+    opacity: 0;
 }
 
 div.planos-top {
@@ -378,6 +401,7 @@ footer div#mapa {
     height: 390px;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 3px 10px #404040;
+    opacity: 0;
 }
 
 footer div#info {
@@ -385,6 +409,7 @@ footer div#info {
     height: 390px;
     background-color: #F03733;
     box-shadow: 0 3px 10px #404040;
+    opacity: 0;
 }
 
 footer div#redes-sociais {
@@ -411,4 +436,5 @@ footer div#pizza-rodape-decoracao {
     height: 390px;
     margin-top: -100px;
     background: url('../img/secao15-pizza-rodape.png') no-repeat;
+    opacity: 0;
 }

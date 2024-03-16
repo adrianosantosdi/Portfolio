@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/animacao.css">
     <link rel="stylesheet" href="./assets/css/layout.css">
     <link rel="stylesheet" href="./assets/css/tipografia.css">
+    <link rel="stylesheet" href="./assets/css/layout-tablet.css" media="screen and (max-width:1028px)">
+    <link rel="stylesheet" href="./assets/css/layout-mobile.css" media="screen and (max-width:812px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +21,7 @@
 </head>
 
 <body>
-    <div id="teste">1</div>
+    <div id="teste"></div>
     <header>
         <nav>
             <div id="logo"></div>
@@ -38,6 +42,11 @@
                     <a href="#">PLANOS</a>
                 </li>
             </ul>
+
+            <ul id="icone-menu-mobile">
+                <ion-icon class="menu" name="menu-outline"></ion-icon>
+            </ul>
+
             <ul id="direita">
                 <li>
                     <a id="criar-conta" href="#">CRIAR CONTA</a>
@@ -387,6 +396,13 @@
     </footer>
 
     <script src="./assets/jquery/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/sticky.min.js"
+        integrity="sha512-O5YCLUxCY2OBc4rfpnKUIgE4LGuCiW8CrJ7ty4hvkBAAKUOnlbomEFWd3a6ruRnFvO3LG2wiaGiJ1heOvdppvA=="
+        crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
